@@ -119,7 +119,7 @@ def get_vjudge_data(username: str = '',
         9 -> Unknown Error
         10 -> Submit Error
         11 -> Queuing && Judging
-    contest_id (str): contest id (empty -> )
+    contest_id (str): contest id (empty -> no particular contest)
     limit (int): maximum number of returned entries (0 -> no limit)
 
     Returns:
