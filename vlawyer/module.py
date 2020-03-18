@@ -101,6 +101,7 @@ def get_vjudge_data(username: str = '',
     username (str): username to search (empty -> all usernames)
     oj_id (str): online judge
         options: All, CodeForces, CodeChef, Gym, LightOJ, UVA, UVALive, Kattis, AtCoder, SPOJ, TopCoder, etc.
+        (ignored if contest_id is specified)
     problem_no (str): problem number (can be found from a problem url in vjudge)
         (if contest id is specified, problem_no is A, B, C, etc. of contest)
     language (str): language of submission
@@ -167,7 +168,7 @@ def get_vjudge_data(username: str = '',
 
         query_data['start'] += length_per_query
 
-    return res if limit == 0 else res[:limit]
+    return res[:limit]
 
 
 def main():
