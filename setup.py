@@ -10,12 +10,12 @@ setup(
     author='Raheeb Hassan',
     author_email='raheeb@myself.com',
     url='https://github.com/hoenchioma/vlawyer',
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+    download_url='https://github.com/hoenchioma/vlawyer/archive/v0.1.tar.gz',
     keywords=['vjudge', 'virtualjudge', 'competitive-programming', 'contest'],
     install_requires=['requests'], # package dependencies
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
-        'Development Status :: 4 - Alpha',
+        'Development Status :: 4 - Beta',
         # Define that your audience are developers
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
