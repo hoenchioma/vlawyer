@@ -8,6 +8,8 @@ You can use this package to get:
 - submissions data
 - contest standings *(comming soon)*
 
+**PyPi Page:** https://pypi.org/project/vlawyer/
+
 **Disclaimer:** All rights to the site and its data are reserved by the site owner. This is merely a tool to obtain the already acquirable data in a machine readable format. What you do with this data and it's legallity are entirely your responsibility.
 
 ### Installation
