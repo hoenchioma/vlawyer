@@ -171,7 +171,7 @@ def get_vjudge_data(username: str = '',
     return res[:limit]
 
 
-def main():
+def _main():
     import json
     from timeit import default_timer as timer
     
@@ -186,4 +186,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    _main()
